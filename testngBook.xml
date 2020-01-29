@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Book test suite" verbose="1" parallel="false">
+    <test name="Book Test">
+        <groups>
+            <run>
+                <include name="Books"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.lits.makukh.library"/>
+        </packages>
+    </test>
+</suite>
